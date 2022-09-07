@@ -43,9 +43,28 @@ resetBtn.addEventListener("click", resetGame);
 
 gameStart ();
 
-function gameStart(){};
-function nextTick(){};
-function clearBoard(){};
+function gameStart(){
+    createBall();
+    nextTick();
+};
+
+function nextTick(){
+    intervalID = setTimeout(() => {
+        clearBoard();
+        drawPaddles();
+        moveBall();
+        drawBall(ballX, ballY);
+        checkCollision();
+        nextTick();
+    }, 10)
+};
+
+//redrawing canvas board//
+function clearBoard(){
+    ctx.fillStyle = boardBackground;
+    ctx.fillRect(0, 0, gameWidth, gameHeight);
+};
+
 function drawPaddles(){
     ctx.strokeStyle = paddleBorder;
 
