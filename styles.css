@@ -8,14 +8,14 @@
 }
 #goku{
     height: 150px;
-    position: absolute;
+    position: fixed;
     right: 81em;
     bottom: 54.5em;
     z-index: 1;
 }
 #vegeta{
     height: 150px;
-    position: absolute;
+    position: fixed;
     right: 7em;
     bottom: 55em;
     z-index: 1;
