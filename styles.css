@@ -1,11 +1,25 @@
 /*css styling added*/
 #gameContainer{
     text-align: center;
+    background-image: url('assets/battle-ground.jpeg');
+    background-size: contain;
+    background-repeat: stretch;
+   
+}
+#goku{
+    height: 150px;
+    position: absolute;
+    right: 135em;
+    bottom: 56em;
+}
+#vegeta{
+    height: 150px;
+    position: fixed;
+    right: 14em;
+    bottom: 65em;
 }
 #gameBoard{
     border: 3px solid;
-    background-image: url('assets/battle-ground.jpeg');
-    background-size: cover;
 }
 #scoreText{
     font-family: "consolas", monospace;
