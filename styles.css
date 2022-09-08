@@ -15,7 +15,7 @@
 }
 #vegeta{
     height: 150px;
-    position: fixed;
+    position: absolute;
     right: 7em;
     bottom: 55em;
     z-index: 1;
