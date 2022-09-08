@@ -9,14 +9,14 @@
 #goku{
     height: 150px;
     position: absolute;
-    right: 135em;
-    bottom: 56em;
+    right: 81em;
+    bottom: 54.5em;
 }
 #vegeta{
     height: 150px;
     position: fixed;
-    right: 14em;
-    bottom: 65em;
+    right: 7em;
+    bottom: 55em;
 }
 #gameBoard{
     border: 3px solid;
